@@ -1,4 +1,4 @@
-#include<std10.h>
+#include<stdio.h>
 
 /**
  * main - lowercase alphabets
