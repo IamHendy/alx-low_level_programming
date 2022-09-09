@@ -24,7 +24,7 @@ int main(void)
 	}
 	else
 	{
-		printf("less than and not 0\n")
+		printf("less than and not 0\n");
 	}
 	return (0);
 }
