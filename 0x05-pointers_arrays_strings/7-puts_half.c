@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- *puts_half - puts half
- *@str: string parameter
+ *puts_half - prints half of a string
+ *@str: input
+ *Return: half the input
  */
-
 void puts_half(char *str)
 {
 	int x, y, i;
