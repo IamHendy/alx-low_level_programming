@@ -5,13 +5,38 @@
  * _strcmp - compares two strings
  * @s1: first parameter
  * @s2: second parameter
- *Return: string
+ *Return:
+ *		returns zero if s1 == s2
+ *		return negative number if s1 < s2
+ *		returns positive number if s1 > s2
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	int result;
+	int i = 0, diff = 0;
 
-	result = strcmp(s1, s2);
-	return (result);
+	while (1)
+	{
+		if (s1[1] == '\0' && s2[i] == '\0')
+			break;
+		else if (s1[i] == '\0')
+		{
+			diff = s2[i];
+			break;
+		}
+		else if (s2[i] == '\0')
+		{
+			diff = s1[i];
+			break;
+		}
+		else if (s1[i] != s2[i])
+		{
+			diff =  s1[i] - s2[i];
+			break;
+		}
+		else
+			i++;
+	}
+	return (diff);
 }
+
