@@ -1,12 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - prints the value of an array
- *@n: parameter
- *@a: value of array
- * return: 0
- */
-
 int main(void)
 {
 	int n;
