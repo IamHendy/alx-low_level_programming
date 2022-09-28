@@ -19,5 +19,6 @@ int wildcmp(char *s1, char *s2);
 int _putchar(char c);
 int helperFunction(int num, int pSqrt);
 int is_prime(int n, int start);
+void check(char *s, int start, int end, int *flag);
 
 #endif /*MAIN_H*/
