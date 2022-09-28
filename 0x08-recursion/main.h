@@ -20,5 +20,6 @@ int _putchar(char c);
 int helperFunction(int num, int pSqrt);
 int is_prime(int n, int start);
 void check(char *s, int start, int end, int *flag);
+int _strlen_recursion(char *s);
 
 #endif /*MAIN_H*/
