@@ -8,12 +8,22 @@
 
 char *string_toupper(char *str)
 {
-	int index = 0;
+	int len = strlen (s);
 
-	while (str[index++])
+	int i;
+
+
+
+	for (i = 0; i < len; i++)
+
 	{
-		if (str[index] >= 'a' && str[index] <= 'z')
-			str[index] -= 32;
+
+		s[i] = toupper(s[i]);
+
+
+
 	}
-	return (str);
+
+	return (s);
+
 }
