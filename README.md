@@ -1,2 +1,5 @@
-# alx-low_level_programming
-This is a repo that entails projects in relevance to C
+# Low-Level Programming - Data Structures, Algorithms, Linux/Unix System Programming
+
+## Description
+This repository contains programs written for the low-level programming and
+algorithm section .
